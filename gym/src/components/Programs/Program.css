@@ -1,0 +1,50 @@
+.programs{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+.programs-header{
+    display: flex;
+    gap: 5rem;
+    font-size: 3rem;
+    font-weight: 700;
+    justify-content: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: 'Segoe UI';
+}
+
+.program-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 10px;
+    font-family: 'Segoe UI';
+    gap: 3rem;
+}
+
+.program-data > div{
+    background-color: rgba(128, 128, 128, 0.322);
+    padding: 15px 20px;
+    color: #fff;
+    
+}
+.program-data > div:hover{
+    background: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+}
+
+.program-data > div > .btn{
+    font-size: 1rem;
+    margin-top: 2rem;
+    background-color: transparent;
+    cursor: pointer;
+    color: #fff;
+}
+
+.program-data > div > img{
+    width: 15%;
+}

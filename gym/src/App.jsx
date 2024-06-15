@@ -1,5 +1,6 @@
 import './App.css'
 import Hero from './components/HeroSection/Hero'
+import Programs from './components/Programs/Programs'
 
 function App() {
   
@@ -7,6 +8,7 @@ function App() {
   return (
     <div className="App">
         <Hero/>
+        <Programs/>
     </div>
      
     
