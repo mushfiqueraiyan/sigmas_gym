@@ -14,6 +14,7 @@ function Header() {
             <li>Blogs</li>
             <li>Contact</li>
         </ul>
+        <button className='join'>Join Now</button>
     </div>
   )
 }

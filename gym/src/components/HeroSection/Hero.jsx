@@ -58,7 +58,6 @@ function Hero() {
       </div>
         
         <div className="right-h">
-            <button className='btn'>Join Now</button>
 
             <div className="heart-rate">
               <img src={heart} alt="" />

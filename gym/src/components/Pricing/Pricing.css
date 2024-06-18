@@ -1,0 +1,65 @@
+.Pricing{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.price{
+    background-color: rgba(128, 128, 128, 0.527);
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column ;
+    width: 20%;
+}
+
+.price>img{
+    width: 3rem;
+}
+
+.price>span{
+    font-family: 'Segoe UI';
+    font-weight: 700;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+
+.price>h2{
+    font-size: 4rem;
+    font-family: 'Segoe UI';
+    color: #fff;
+    margin: 20px 0px;
+}
+
+.price-list{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-family: 'Segoe UI';
+    gap: 5px;
+    margin: 20px 0px 0px 0px;
+    font-size: 1rem;
+}
+
+.price-list>img{
+    width: 1.5rem;
+}
+
+.btn{
+    margin: 40px 0px 0px 0px;
+}
+
+.color{
+    background: var(--planCard);
+}
+
+.color>img{
+    margin-top: 15px;
+    width: 2rem;
+}
+
+.color>.btn{
+    margin: 50px 0px 20px 0px;
+}
